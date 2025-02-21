@@ -22,7 +22,6 @@ const ArticleCard = ({ title, image, author, date, tags, slug }) => {
             <Button className="read-more-btn mb-4">Read More</Button>
             <div className="article-footer">
               <span className="author">By: {author}</span>
-              <span className="date">{date}</span>
             </div>
           </Card.Body>
         </Card>

@@ -48,16 +48,20 @@ export default function CategoryPage({ categoryName, articles }) {
         <div className="headline-container">
           <em>Featured</em>
           <p className="headline">{featuredArticle.title}</p>
-          <div className="tag-wrapper">
+          <Row className="tag-wrapper d-flex flex-row">
+            <Col md={8}>
             <div className="tag-container">
               {featuredArticle.tags.map((tag, index) => (
                 <CustomTag key={index} text={tag} type="primary" />
               ))}
             </div>
-            <Button className="read-btn" as={Link} to={`/${categoryName}/${featuredArticle.slug}`}>
-              Read More
-            </Button>
-          </div>
+            </Col>
+            <Col md={3} className="d-flex read-btn-cont">
+              <Button className="read-btn" as={Link} to={`/${categoryName}/${featuredArticle.slug}`}>
+                Read More
+              </Button>
+            </Col>
+          </Row>
         </div>
       </div>
 

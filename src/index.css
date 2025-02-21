@@ -115,6 +115,10 @@ em {
     text-align: center;
   }
 
+  .read-btn-cont {
+    justify-content: start !important;
+  }
+
 /* Adjust navbar container */
   .custom-navbar .container-fluid {
     display: flex;
@@ -169,8 +173,8 @@ em {
 }
 
 .headline-container {
-  top: clamp(5rem, 12vh, 8rem); /* Moves it down on small screens */
-  bottom: min(5%, 4rem); /* Ensures it stays near the bottom on large screens */
+  top: clamp(5rem, 12vh, 8rem) !important; /* Moves it down on small screens */
+  bottom: min(5%, 4rem) !important; /* Ensures it stays near the bottom on large screens */
 }
 }
 
@@ -389,11 +393,13 @@ em {
 /* Keep button on the right */
 .read-btn {
   text-wrap: nowrap;
-  padding: clamp(0.6%, 1vw, 1%) clamp(1.8%, 2vw, 3%) !important;
+  padding: clamp(1%, 1vw, .7em) clamp(1.8%, 2vw, 2em) !important;
   font-size: clamp(0.8rem, 1vw, 1rem) !important;
 }
 
-
+.read-btn-cont {
+  justify-content: end;
+}
 
 .custom-card {
   background-color: rgba(109, 106, 106, 0.72) !important;
@@ -469,10 +475,10 @@ em {
   overflow: hidden !important;
   text-overflow: ellipsis !important;
   display: -webkit-box !important;
-  -webkit-line-clamp: 4 !important; /* Ensures titles take up equal space */
+  line-clamp: 4 !important; /* Ensures titles take up equal space */
   -webkit-box-orient: vertical !important;
   line-height: 1.4 !important;
-  max-height: 5.6em !important; /* Forces same height for title */
+  max-height: 7em !important; /* Forces same height for title */
   word-break: break-word !important;
   margin-bottom: auto !important;
 }
