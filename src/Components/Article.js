@@ -14,9 +14,10 @@ const Article = ({ title, author, date, content, image, tags, category }) => {
   return (
     <Container className="article-container">
       <Breadcrumb>
-        <Breadcrumb.Item href={`/${category}`}>{category}</Breadcrumb.Item>
+        <Breadcrumb.Item href={`/${category.toLowerCase()}`}>{category}</Breadcrumb.Item>
         <Breadcrumb.Item active>{title}</Breadcrumb.Item>
       </Breadcrumb>
+
 
       <div className="article-header mt-auto">
         <h1 className="article-title">{title}</h1>
