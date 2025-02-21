@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import CustomTag from "./Tags";
 
-const ArticleCard = ({ title, image, author, date, tags, keytag }) => {
+const ArticleCard = ({ title, image, author, date, tags, slug }) => {
   const location = useLocation(); // Get the current page path
-  const link = `${location.pathname}/${keytag}`;
+  const link = `${location.pathname}/${slug}`;
 
   return (
     <Link to={link} style={{ textDecoration: "none" }}>
