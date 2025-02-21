@@ -1,10 +1,10 @@
 
-const articles = [
+const biologyArticles = [
     {
       slug: "the-gay-gene",
       category: "Biology",
       title: "The Gay Gene: Scientists Identify Genetic Marker Associated With Homosexuality",
-      author: "Mariefher Villanueva",
+      author: "M. Villanueva, J.K. Junsay",
       image: require("../assets/genetics.jpg"),
       date: "February 20, 2025",
       tags: ["Genetics", "Sexuality", "Queer Theory"],
@@ -28,7 +28,7 @@ const articles = [
       slug: "maternal-imprint-theory",
       category: "Biology",
       title: "Maternal Imprint Theory: Unlocking Prenatal Cravings for Healing and Regeneration",
-      author: "Mark Winfred Turco",
+      author: "M.W. Turco, P. Pelegrino",
       image: require("../assets/pregnant.jpeg"),
       date: "January 27, 2025",
       tags: ["Maternity", "Healing", "Food"],
@@ -78,12 +78,87 @@ const articles = [
           <a href="https://www.themindbodyfoundation.com/post/cellular-memory-does-information-get-stored-in-cells" target="_blank" rel="noopener noreferrer">Link</a>
         </li>
       </ul>
-
-
-
 `,
-    },
-  ];
+},
+{
+  slug: "aura-farming",
+  category: "Biology",
+  title: "Auric Polymerization Theory: The Advent of Aura Farming and Dominance",
+  author: "H. Bernales, B. A. dela Gente",
+  image: require("../assets/aura.jpg"),
+  date: "January 12, 2025",
+  tags: ["Human Attraction", "Behavioral Science", "Social Influence"],
+  content:
+  `
+  <h4>Introduction</h4>
+  <p>
+    The concept of human attractiveness has long been studied from psychological, biological, and sociological perspectives. 
+    Traditional research suggests that beauty is determined by facial symmetry, skin clarity, and genetic fitness 
+    (Thornhill & Gangestad, 1999). However, a new and revolutionary theory—the <b>Auric Polymerization Theory (APT)</b>—proposes that 
+    a person’s attractiveness extends beyond the physical realm, delving into bioenergetic interactions that enhance personal 
+    magnetism through a process known as Aura Farming.
+  </p>
+
+  <h4>The Science of Aura: Auric Polymerization Theory (APT)</h4>
+
+  <h5>Bioenergetic Fields and Pheromone Blending</h5>
+  <p>
+    According to APT, aura is an invisible bioenergetic field influenced by the interaction of pheromones, which are chemical 
+    compounds secreted by the body to trigger social responses in others. Unlike previous theories that limit pheromones to 
+    scent-based attraction, APT suggests that pheromone blending catalyzes hormonal reactions, causing shifts in oxytocin levels. 
+    Oxytocin, also known as the "bonding hormone," is associated with trust, admiration, and attraction (Zak et al., 2005).
+  </p>
+  <p>
+    This theory argues that people with high aura levels subconsciously trigger oxytocin spikes in others, leading to increased 
+    social dominance, admiration, and attraction. This phenomenon explains why certain individuals, despite lacking conventional 
+    beauty standards, command a strong presence and exert a magnetic influence in social settings.
+  </p>
+
+  <h5>The Process of Aura Farming</h5>
+  <p>
+    Aura Farming refers to the systematic enhancement of one’s bioenergetic presence through deliberate lifestyle and behavioral 
+    modifications. The process involves:
+  </p>
+  <ul>
+    <li><strong>Looksmaxxing:</strong> Enhancing facial structure and body aesthetics using mewing (tongue posture techniques to 
+    shape the jawline), skincare regimens, and biohacking supplements to improve attractiveness (Zebrowitz & Montepare, 2008).</li>
+    <li><strong>Kinetic Expression:</strong> Displaying calculated yet spontaneous movements that exude confidence, including slow, 
+    deliberate gestures that convey dominance.</li>
+    <li><strong>Postural Optimization:</strong> Maintaining a commanding posture, such as keeping the shoulders squared and spine 
+    straight, to radiate confidence.</li>
+    <li><strong>Controlled Pheromone Emission:</strong> Utilizing natural pheromone-enhancing methods, such as consuming foods 
+    that improve sweat composition or wearing pheromone-infused colognes (Grammer et al., 2005).</li>
+    <li><strong>Sigma Grindset Mindset:</strong> Embodying a self-sufficient and goal-oriented lifestyle that naturally amplifies 
+    aura levels, making an individual appear mysterious and desirable.</li>
+  </ul>
+
+  <h4>References</h4>
+  <ul>
+    <li>
+      Grammer, K., Fink, B., & Neave, N. (2005). Human pheromones and sexual attraction. 
+      <em>European Journal of Obstetrics & Gynecology and Reproductive Biology, 118</em>(2), 135-142. 
+      <a href="https://pubmed.ncbi.nlm.nih.gov/15653193/" target="_blank" rel="noopener noreferrer">Link</a>
+    </li>
+    <li>
+      Thornhill, R., & Gangestad, S. W. (1999). Facial attractiveness. 
+      <em>Trends in Cognitive Sciences, 3</em>(12), 452-460. 
+      <a href="https://pubmed.ncbi.nlm.nih.gov/10562724/" target="_blank" rel="noopener noreferrer">Link</a>
+    </li>
+    <li>
+      Zak, P. J., Kurzban, R., & Matzner, W. T. (2005). The neurobiology of trust. 
+      <em>Annals of the New York Academy of Sciences, 1032</em>(1), 224-227. 
+      <a href="https://neuroeconomicstudies.org/wp-content/uploads/2017/07/Trust-NYA.pdf" target="_blank" rel="noopener noreferrer">Link</a>
+    </li>
+    <li>
+      Zebrowitz, L. A., & Montepare, J. M. (2008). Social psychological face perception: Why appearance matters. 
+      <em>Social and Personality Psychology Compass, 2</em>(3), 1497-1517. 
+      <a href="https://compass.onlinelibrary.wiley.com/doi/full/10.1111/j.1751-9004.2008.00109.x" target="_blank" rel="noopener noreferrer">Link</a>
+    </li>
+  </ul>
+
+  `
+}
+];
   
-  export default articles;
+export default biologyArticles;
   

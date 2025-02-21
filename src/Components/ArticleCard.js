@@ -8,7 +8,7 @@ const ArticleCard = ({ title, image, author, date, tags, slug }) => {
   const link = `${location.pathname}/${slug}`;
 
   return (
-    <Link to={link} style={{ textDecoration: "none" }}>
+    <Link to={link} style={{ textDecoration: "none" }} >
       <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
         <Card className="article-card p-2 my-3">
           {image && <Card.Img variant="top" src={image} alt={title} className="article-img" />}

@@ -22,7 +22,18 @@ h3 {
 }
 
 h4 {
+  font-weight: 600 !important;
+  padding: 1em 0;
+}
+
+h5 {
   font-weight: 500 !important;
+  padding: .5em 0;
+}
+
+
+li {
+  font-size: .95em !important;
 }
 
 em {
@@ -420,10 +431,10 @@ em {
 
 .article-card {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between; 
-  height: 100%; 
-  min-height: 400px;
+  flex-direction: column !important;
+  justify-content: space-between !important; 
+  height: 100% !important; 
+  min-height: 400px !important;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -442,17 +453,6 @@ em {
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-}
-
-.article-card {
-  display: flex !important;
-  flex-direction: column !important;
-  height: 100% !important; /* Ensures all cards have the same height */
-  border-radius: 15px !important;
-  overflow: hidden !important;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
-  transition: box-shadow 0.3s ease-in-out !important;
-  background: #CCC7BF !important;
 }
 
 .article-card-body {
@@ -550,3 +550,20 @@ em {
   color: var(--primary) !important;
 }
 
+.team-members img {
+  max-height: 250px;
+  gap: 20% !important;
+  padding: 10px;
+}
+
+.team-members p{
+  color: #fff !important;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 5vw, .7rem);
+}
+
+.team-description{
+  color: #fff;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, .5rem);
+}
